@@ -1,0 +1,63 @@
+.menu .active{
+	background:red;
+}
+.menu{
+	list-style:none;
+	padding: 0;
+	margin: 0;
+	width:300px;
+	border-left:5px solid green;
+	font-size:0;
+}
+.menu ul{
+	list-style:none;
+	padding: 0;
+	margin: 0;
+	width:150px;
+}
+.menu a{
+	text-decoration:none;
+	color:black;
+	display:block;
+	padding: 5px 10px;
+} 
+
+	
+.menu>li:hover>a{
+	background:lightblue;
+	border-radius:30px;
+}
+.menu li li a{
+	color:black;
+} 
+.menu li li:hover a{
+	font-weight:bold;
+	color:red;
+} 
+.menu >li{
+	position:relative;
+	font-size:1rem;
+	display: inline-block;
+} 
+.menu ul{
+	position:absolute;
+	
+	top: 10;
+	z-index: 10;
+	display: none;
+} 
+.menu >li:hover ul{
+	display: block;
+} 
+.f2{
+	background-color:blue;
+	border-radius:30px 0 0 30px
+}
+.active1{
+	background-color:orange;
+	border-radius:30px 0 0 30px
+}
+.gren{
+	background-color:green;
+	border-radius:30px 0 0 30px
+}
